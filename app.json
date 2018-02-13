@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "Expo Test",
+    "description": "just a text app",
+    "slug": "expo-test",
+    "privacy": "public",
+    "sdkVersion": "25.0.0",
+    "platforms": ["ios", "android"],
+    "version": "1.0.0",
+	"orientation": "portrait",
+	"primaryColor": "#1f1f1f",
+    "icon": "./assets/images/icon.png",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#1f1f1f"
+    },
+    "ios": {
+	  "supportsTablet": true,
+	  "buildNumber": "1"
+	},
+	"android": {
+		"package": "com.artmazitestapp.testapp",
+		"permissions": [],
+		"versionCode": 1
+	}
+  }
+}
